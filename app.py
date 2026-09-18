@@ -1,6 +1,8 @@
 from flask import Flask, jsonify, request
 from werkzeug.security import generate_password_hash, check_password_hash
 from functools import wraps
+from dotenv import load_dotenv
+import os
 
 from flask_jwt_extended import (
     JWTManager,
@@ -18,7 +20,9 @@ import mysql.connector
 
 app = Flask(__name__)
 
-app.config["JWT_SECRET_KEY"] = "imran123"
+load_dotenv()
+
+app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY")
 
 jwt = JWTManager(app)
 
