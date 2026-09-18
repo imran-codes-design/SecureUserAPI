@@ -18,8 +18,6 @@ import mysql.connector
 
 app = Flask(__name__)
 
-# For learning only.
-# Later we will move this into a .env file.
 app.config["JWT_SECRET_KEY"] = "imran123"
 
 jwt = JWTManager(app)
