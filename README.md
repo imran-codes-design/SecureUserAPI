@@ -188,7 +188,7 @@ The following functionality was tested:
 
 Clone the repository:
 
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/imran-codes-design/SecureUserAPI>
 
 Enter the project directory:
 
