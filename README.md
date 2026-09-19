@@ -188,7 +188,7 @@ The following functionality was tested:
 
 Clone the repository:
 
-git clone <https://github.com/imran-codes-design/SecureUserAPI>
+git clone <https://github.com/imran-codes-design/decodelabs_tasks>
 
 Enter the project directory:
 
